@@ -53,8 +53,8 @@ p {
 }
 
 .letter-window {
-  width: 90vw;
-  max-width: 800px;
+  width: 110vw;
+  max-width: 900px;
   padding: 140px 20px 20px;
   display: flex;
   flex-direction: column;
@@ -171,16 +171,6 @@ h1 {
 
   .final-text {
     font-size: 18px;
+    max-width: 85%;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
