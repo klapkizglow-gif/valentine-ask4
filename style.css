@@ -21,9 +21,10 @@ body {
 }
 
 /* ENVELOPE SCREEN */
-#envelope-container {
+#envelope-container p {
   text-align: center;
   cursor: pointer;
+  font-size: 40px;
 }
 
 #envelope {
@@ -38,10 +39,7 @@ body {
   100% { transform: scale(1); }
 }
 
-p {
-  font-size: 40px;
-  margin: 10px 0 0;
-}
+
 
 /* LETTER SCREEN */
 #letter-container {
@@ -174,8 +172,9 @@ h1 {
 
   .final-text {
     font-size: 18px;
-    max-width: 85%;
+    max-width: 26ch;
   }
 }
+
 
 
