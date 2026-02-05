@@ -42,6 +42,10 @@ p {
   font-size: 40px;
   margin: 10px 0 0;
 }
+l {
+  font-size: 30px;
+  margin: 10px 0 0; 
+}
 
 /* LETTER SCREEN */
 #letter-container {
@@ -181,4 +185,5 @@ h1 {
     max-width: 85%;
   }
 }
+
 
