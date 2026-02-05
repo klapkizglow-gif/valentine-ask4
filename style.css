@@ -73,24 +73,31 @@ p {
 }
 
 .letter-window.open {
-  transform: scale(1);
-  opacity: 1;
+  transform: scale(1.4);
+  opacity: 1.2;
 }
 
 h1 {
-  font-size: 30px;
+  font-size: 20px;
   margin: 0;
+  padding: 4px 14px;
+  background-color: rgba(255, 240, 240, 0.5);
+  border-radius: 10px;
+
+  max-width: 90%;
+  margin: 10px auto 0;
+  text-align: center;
 }
 
 /* CAT */
 .cat {
-  width: 240px;
+  width: 130px;
   margin: 10px 0;
   transition: width 0.4s ease;
 }
 
 .letter-window.final .cat {
-  width: 180px;
+  width: 120px;
 }
 
 /* BUTTONS */
@@ -105,7 +112,7 @@ h1 {
 }
 
 .btn {
-  width: 120px;
+  width: 85px;
   cursor: pointer;
   user-select: none;
   touch-action: manipulation;
@@ -122,11 +129,11 @@ h1 {
 
 /* FINAL TEXT */
 .final-text {
-  font-size: 22px;
-  line-height: 1.4;
-  padding: 12px 16px;
+  font-size: 18px;
+  line-height: 0.8;
+  padding: 4px 14px;
   background-color: rgba(255, 240, 240, 0.5);
-  border-radius: 12px;
+  border-radius: 10px;
 
   max-width: 90%;
   margin: 10px auto 0;
@@ -174,3 +181,4 @@ h1 {
     max-width: 85%;
   }
 }
+
